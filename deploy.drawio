@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T19:41:54.698Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.3" etag="2vhzfXebCVtka96gbDmF" type="github"><diagram id="-ZGtix69Otpr5gTBsUnc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-04T19:56:46.632Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="InfqN9y2Ck1T_2iGcKKU" version="14.8.3" type="github">
+  <diagram id="-ZGtix69Otpr5gTBsUnc" name="Page-1">
+    <mxGraphModel dx="1350" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qp65EuoWiTKk-9mLM16m-1" value="POV Display" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qp65EuoWiTKk-9mLM16m-2" target="qp65EuoWiTKk-9mLM16m-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qp65EuoWiTKk-9mLM16m-2" target="qp65EuoWiTKk-9mLM16m-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-2" value="Raspberry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-4" value="Commands" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-5" value="RabbitMQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-6" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qp65EuoWiTKk-9mLM16m-7" target="qp65EuoWiTKk-9mLM16m-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qp65EuoWiTKk-9mLM16m-7" target="qp65EuoWiTKk-9mLM16m-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-7" value="Spring Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qp65EuoWiTKk-9mLM16m-10" target="qp65EuoWiTKk-9mLM16m-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-10" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-20" value="&lt;h1&gt;Android&lt;/h1&gt;&lt;p&gt;Remote control client. Connects to the server.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="720" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-21" value="&lt;h1&gt;Server&lt;/h1&gt;&lt;p&gt;Mediates communication between one or more clients. Authorize them and validate traffic&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qp65EuoWiTKk-9mLM16m-22" value="&lt;h1&gt;POV Controler&lt;/h1&gt;&lt;p&gt;Implements low level API of POV display functionalities. Is controlled directly by server and only server.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="190" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
